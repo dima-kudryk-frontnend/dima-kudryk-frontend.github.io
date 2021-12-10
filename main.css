@@ -1,0 +1,602 @@
+header {
+    width: 100%;
+    background: url(./images/Background.png);
+    min-height: 768px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 4.0rem;
+}
+
+.navbar-brand {
+    font-size: 1.65rem;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    margin-left: 3.5rem;
+}
+
+.align {
+    margin-top: 7%;
+    font-size: 3.5rem;
+}
+
+.margin {
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.sml {
+    font-size: 1.10rem;
+    margin-top: 7.5%;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.jumbotr {
+    width: 85%;
+    height: 64%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-attachment: fixed;
+}
+
+.jumb-cent {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jumbo-header {
+    left: 2%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.jumbo-main {
+    top: 15%;
+}
+
+.section-proges {
+    width: 100%;
+    height: 693px;
+    background: rgba(255, 250, 242, 1);
+}
+
+.jumbo-next {
+    width: 85%;
+    height: 90%;
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jumbo-foto {
+    width: 350px;
+}
+
+.progres {
+    width: 635px;
+    height: 340px;
+}
+
+.bg-succe {
+    background: rgba(198, 108, 73, 1);
+}
+
+.progress {
+    border-radius: 0rem;
+    background: rgba(245, 214, 171, 1);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.martop {
+    margin-top: 16%;
+}
+
+.martops {
+    margin-top: 37%;
+}
+
+article {
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+.justifu-center {
+    width: 85%;
+    height: 90%;
+}
+
+.images {
+    width: 635px;
+    height: 404px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.first-block {
+    width: 350px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.second-block {
+    width: 255px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgs-one {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/Rectangl.png);
+    width: 350px;
+    height: 144px;
+}
+
+.imgs-two {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/Rectang.png);
+    width: 350px;
+    height: 233px;
+}
+
+.imgs-three {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/Mask\ Group.png);
+    width: 255px;
+    height: 233px;
+}
+
+.imgs-four {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/Rect.png);
+    width: 255px;
+    height: 144px;
+}
+
+.conteiners {
+    width: 349px;
+    height: 403px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.font-size {
+    font-size: 2.5rem;
+}
+
+.focusir {
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.portfolio {
+    margin-top: 6%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.lorem {
+    margin-top: 2%;
+}
+
+.article {
+    margin-top: 3%;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: rgba(255, 250, 242, 1);
+}
+
+.text-get {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.justifu-center {
+    width: 85%;
+    height: 90%;
+}
+
+.footer {
+    width: 100%;
+    height: 166px;
+    margin-top: 4%;
+}
+
+.colum {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+
+.e-mail {
+    width: 159px;
+}
+
+@media screen and (max-width: 992px) {
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        margin-left: 1rem;
+    }
+    .d-fle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 9%;
+    }
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        left: 0;
+    }
+    .align {
+        margin-top: 7%;
+        font-size: 1.5rem;
+    }
+    .margin {
+        margin-top: 4%;
+        font-weight: 400;
+        font-size: 1.05rem;
+    }
+    .sml {
+        font-size: 0.7rem;
+        margin-top: 7.5%;
+        text-decoration: underline;
+    }
+    .navbar-brand {
+        font-size: 2.65rem;
+        margin: auto;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler-icon :focus {
+        display: none;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1.5' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+    .navbar-light .navbar-toggler {
+        border: none;
+        position: absolute;
+    }
+    .navbar-light .navbar-toggler :focus {
+        display: none;
+    }
+    navbar-toggler-icon {
+        display: flex;
+        position: absolute;
+        left: 0;
+    }
+    .navbar-toggler-icon:focus {
+        width: 0%;
+        height: 0%;
+    }
+    .jumb-cent {
+        display: flex;
+        width: 100%;
+        height: 85%;
+        flex-direction: column;
+    }
+    .jumbo-foto {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-proges {
+        height: 901px;
+    }
+    .progres {
+        margin-top: 6%;
+        width: 100%;
+    }
+    .progress {
+        height: 1.5rem;
+    }
+    article {
+        margin-top: 5%;
+        width: 100%;
+        height: 595px;
+        background-color: white;
+    }
+    .font-size {
+        display: none;
+    }
+    .images {
+        position: absolute;
+        right: 0;
+        top: inherit;
+    }
+    .conteiners {
+        width: 349px;
+        height: 156px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .images {
+        width: 378px;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .first-block {
+        width: 169px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .second-block {
+        width: 169px;
+        height: 100%;
+    }
+    .imgs-one {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Rectangl.png);
+        width: 199px;
+        height: 81px;
+    }
+    .imgs-two {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Rectang.png);
+        width: 199px;
+        height: 179px;
+    }
+    .imgs-four {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Rect.png);
+        width: 179px;
+        height: 87px;
+    }
+    .imgs-three {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Mask\ Group.png);
+        width: 179px;
+        height: 175px;
+    }
+    .focusir {
+        width: 87%;
+    }
+    .article {
+        width: 489px;
+        margin: 0 auto;
+    }
+    .lorem {
+        width: 132%;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+    .portfolio {
+        margin-left: 34%;
+    }
+    .article {
+        /* width: 489px; */
+        margin: 0 auto;
+        margin-left: 31%;
+        font-size: 2.5rem;
+        width: 50%;
+    }
+    footer {
+        width: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .margin-left {
+        margin-left: 32%;
+    }
+    .colum {
+        font-size: 0.9rem;
+        line-height: 27px;
+    }
+    .text-get {
+        margin: 0 auto;
+        margin-left: 25%;
+        font-size: 2.5rem;
+        width: 50%;
+    }
+    .jumbo-headers {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -4%;
+    }
+    .jumbo-header {
+        font-size: 2.5rem;
+    }
+    .jumbo-headerr {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -4%;
+        font-size: 2.5rem;
+    }
+    .margin-left {
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .d-fle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .d-fle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    /* .jumbo-headers {
+width: 100%;
+margin: auto;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+/* margin-left: 31%;
+font-size: 2.5rem;
+width: 50%; 
+}
+
+.jumbo-header {
+position: absolute;
+margin: 0 auto;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+*/
+    .margin-left {
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 367px) {
+    .article {
+        /* width: 489px; */
+        margin: 0 auto;
+        margin-left: 27%;
+        font-size: 2.5rem;
+        width: 50%;
+        margin-top: 17%;
+    }
+    .lorem {
+        width: 98%;
+        height: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+    .images {
+        width: 277px;
+        height: 270px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* margin-left: 94%; */
+    }
+    .imgs-one {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Rectangl.png);
+        width: 162px;
+        height: 81px;
+    }
+    .imgs-two {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(./images/Rectang.png);
+        width: 158px;
+        height: 179px;
+    }
+    .navbar-brand {
+        font-size: 1.65rem;
+        margin: auto;
+    }
+    .jumbotron {
+        width: 100%;
+        height: 33rem;
+        display: flex;
+        flex-wrap: wrap;
+        background-attachment: fixed;
+    }
+    .text-get {
+        margin: 0 auto;
+        margin-left: 25%;
+        font-size: 2.0rem;
+        width: 67%;
+        font-weight: 700;
+        margin-top: 7%;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .d-fle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+}
